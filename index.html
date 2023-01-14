@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>My Simple Website</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  padding: 0 2em;
+}
+
+section {
+  margin: 2em 0;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 1em;
+}
+
+  </style>
 </head>
 <body>
   <header>
-    <h1>Welcome</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Welcome to My Simple Website</h1>
   </header>
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Welcome to our website! We are a team of dedicated professionals who are passionate about helping others. Our goal is to provide high-quality services to our clients and make a positive impact in the community. We hope you enjoy exploring our website and learning more about what we do.</p>
-  </section>
-  <section id="services">
-    <h2>Our Services</h2>
+  <nav>
     <ul>
-      <li>Consulting</li>
-      <li>Training</li>
-      <li>Coaching</li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-  </section>
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>We would love to hear from you! Please feel free to reach out to us via email at contact@welcome.com or by phone at 555-555-5555.</p>
-  </section>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>This is a simple website created to showcase some basic HTML and CSS.</p>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Service 1</li>
+        <li>Service 2</li>
+        <li>Service 3</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: contact@mysimplewebsite.com</p>
+      <p>Phone: 555-555-5555</p>
+    </section>
+  </main>
   <footer>
-    <p>Copyright © 2021 Welcome. All rights reserved.</p>
+    <p>Copyright © 2021 My Simple Website</p>
   </footer>
 </body>
 </html>
