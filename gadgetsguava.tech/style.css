@@ -1,0 +1,154 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    background:rgb(40, 52, 60);
+    
+}
+nav{
+    font-family: 'Lora', serif;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    padding-bottom:20px;
+}
+
+nav ul li{
+    float:left;
+    padding:8px 15px;
+    list-style:none;
+}
+nav a{
+    display:inline-block;
+    text-decoration:none;
+    padding:8px 10px;
+    color:white;
+    
+}
+
+nav a:hover{
+    background-color:white;
+    color:black;
+    box-shadow:0 0 10px white;
+    border-radius:5px;
+}
+
+hr{
+    width:80%;
+    opacity:60%;
+    box-shadow:0 0 10px white;
+}
+
+.hr1{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+  
+}
+.welcome{
+    padding:30px;
+    margin-left:60px;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Lora', serif;
+    padding-top:15px;
+    letter-spacing:3px;
+    font-size:35px;
+}
+h3{
+    color:white;
+    text-align:center;
+    padding-top:20px;
+    word-spacing:10px;
+}
+ h1:hover{
+    font-size:40px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #79dbff;
+ }
+ h3:hover{
+    font-size:25px;
+    text-shadow: 0 0 8x #fff;
+ }
+
+ .note{
+    bottom:20px;
+    width:70%;
+    padding:50px 10px;
+    margin:0 auto;
+    border:2px solid yellow;
+    border-radius:5px;
+    box-shadow: 0 0 5px yellow;
+    
+ }
+
+ .notice{
+    text-align:center;
+    color:white;
+    font-family: 'Lora', serif;
+   
+ }
+
+ .matter{
+    color:white;
+    text-align:center;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+ }
+
+ .social{
+    width:100%;
+    position:fixed;
+    background-color:white;
+    bottom:0px;
+    height:120px;
+ }
+
+ .footerh{
+    padding:20px 25px;
+    position:fixed;
+    bottom:50px;
+    background:white;
+    
+ }
+ img{
+    height:50px;
+    width:50px;
+    background-color:white;
+ }
+ img:hover{
+    height:55px;
+    width:55px;
+    border-image: 1px yellow;
+ }
+ .instapostion{
+    position:fixed;
+    right:50%;
+    left:50%;
+    bottom:40px;
+    text-decoration:none;
+ }
+ .instapostion p{
+    text-shadow:2px black;
+ }
+ .instapostion p:hover{
+    background:red;
+    font-size:20px;
+    color:red;
+ }
+
+ .copyright{
+    position:fixed;
+    padding:10px;
+    bottom:5px;
+    left:auto;
+    color:black;
+    background:white;
+ }
